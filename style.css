@@ -1,0 +1,51 @@
+
+.small{
+    background-color: aqua;
+}
+
+.medium{
+    background-color: blueviolet;
+}
+
+.large{
+    background-color: crimson;
+}
+
+
+/*@media only screen and (max-width: 600px){
+    .medium,.large{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px){
+    .small,.large{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .small,.medium{
+        display: none;
+    }
+}
+*/
+
+@media only screen and (max-width: 600px){
+    body{
+        display: contents;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px){
+    .small,.large{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .small,.medium{
+        display: none;
+    }
+}
